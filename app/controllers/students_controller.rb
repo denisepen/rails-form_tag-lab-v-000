@@ -9,7 +9,7 @@ class StudentsController < ApplicationController
   end
 
   def create
-    @student = Student.find(params[:id])
+    @student = Student.find(params[:student])
   end
 
 end
